@@ -23,4 +23,4 @@ app.use("/customer", customerController)
 app.use("/review", reviewController)
 app.use('/trip', tripsController)
 app.use('/seed', seedController)
-
+ 
