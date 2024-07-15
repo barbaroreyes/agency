@@ -17,6 +17,10 @@ const morgan = require("morgan")
 app.use(cors())
 app.use(express.json())
 app.use(morgan('dev'))
+
+
+
+ /**/
 app.use('/auth',AuthRouter)
 app.use("/agency", agencyController)
 app.use("/customer", customerController)
@@ -24,6 +28,10 @@ app.use("/review", reviewController)
 app.use('/trip', tripsController)
 app.use('/seed', seedController)
  
+
+app.get("/",(req,res)=>{
+  res.json("Hello")
+ })
 app.listen(PORT , ()=>{
   console.log(`Listening on port ${PORT}`)
 });
