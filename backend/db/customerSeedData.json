@@ -1,0 +1,54 @@
+[
+	{
+		"username": "bnorrichs",
+		"password": "ieatpaintchips",
+		"name": { "first": "Ben", "last": "Norrichs" },
+		"booked_trips": [
+			"Rio Cauto",
+			"Rio Almendares",
+			"Almendares River",
+			"Toa River",
+			"Sagua la Grande"
+		],
+		"avatar": "https://norrichs.com/img/ben_brownshirt800.jpg"
+	},
+	{
+		"username": "barbaro",
+		"password": "codeforfunandprofit",
+		"name": { "first": "Barbaro", "last": "Reyes" },
+		"booked_trips": [
+			"Río Jatibonico del Norte",
+			"Pico Turquino",
+			"Pico Turquino",
+			"Varadero",
+			"Pan de Guajaibon"
+		],
+		"avatar": ""
+	},
+	{
+		"username": "mika",
+		"password": "devwarrior2000",
+		"name": { "first": "Mika", "last": "Smith" },
+		"booked_trips": [
+			"Mayarí River",
+			"Toa River",
+			"Rio Cauto",
+			"Tarará River",
+			"Bacuranao River"
+		],
+		"avatar": ""
+	},
+	{
+		"username": "daniel",
+		"password": "backenddaddy100",
+		"name": { "first": "Daniel", "last": "Gavin" },
+		"booked_trips": [
+			"Rio Yumuri",
+			"Rio Cauto",
+			"Bacuranao River",
+			"Havana",
+			"Tarará River"
+		],
+		"avatar": ""
+	}
+]
